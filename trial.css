@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+@media screen and (max-width: 375px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 375px or smaller */
+
 body {
 	background-color: hsl(257, 40%, 49%);
 	background-image: url(file:///Users/mac/Desktop/huddle-landing-page-679023-master/images/bg-desktop.svg);
